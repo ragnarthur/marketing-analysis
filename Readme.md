@@ -6,13 +6,49 @@ Este repositório contém um projeto de análise de marketing utilizando técnic
 
 O projeto é composto pelos seguintes arquivos:
 
-- `marketing_campaign.xlsx`: Dataset utilizado para a análise.
+- `marketing_campaign.xlsx`: Dataset utilizado para a análise, disponível no [Kaggle](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign).
 - `analysis.ipynb`: Jupyter Notebook contendo o código para análise e segmentação dos clientes.
 - `README.md`: Este arquivo, que descreve o projeto e suas etapas.
 
 ## Objetivo
 
 O objetivo deste projeto é analisar o comportamento dos clientes e segmentá-los utilizando a técnica de RFM. A análise ajudará a entender melhor os diferentes segmentos de clientes e a desenvolver estratégias de marketing mais eficazes.
+
+## Dataset
+
+O dataset utilizado neste projeto foi obtido do [Kaggle](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign). Ele contém informações sobre clientes, incluindo dados demográficos, comportamentais e respostas a campanhas de marketing.
+
+### Detalhes do Dataset
+
+- **ID**: Identificador único do cliente.
+- **Year_Birth**: Ano de nascimento do cliente.
+- **Education**: Nível de educação do cliente.
+- **Marital_Status**: Estado civil do cliente.
+- **Income**: Renda anual do cliente.
+- **Kidhome**: Número de crianças na casa do cliente.
+- **Teenhome**: Número de adolescentes na casa do cliente.
+- **Dt_Customer**: Data de cadastro do cliente.
+- **Recency**: Número de dias desde a última compra do cliente.
+- **MntWines**: Gasto em vinhos nos últimos 2 anos.
+- **MntFruits**: Gasto em frutas nos últimos 2 anos.
+- **MntMeatProducts**: Gasto em carnes nos últimos 2 anos.
+- **MntFishProducts**: Gasto em peixes nos últimos 2 anos.
+- **MntSweetProducts**: Gasto em doces nos últimos 2 anos.
+- **MntGoldProds**: Gasto em produtos de ouro nos últimos 2 anos.
+- **NumDealsPurchases**: Número de compras com desconto.
+- **NumWebPurchases**: Número de compras pela web.
+- **NumCatalogPurchases**: Número de compras por catálogo.
+- **NumStorePurchases**: Número de compras em loja.
+- **NumWebVisitsMonth**: Número de visitas ao site nos últimos 30 dias.
+- **AcceptedCmp1**: 1 se a oferta na campanha 1 foi aceita, 0 caso contrário.
+- **AcceptedCmp2**: 1 se a oferta na campanha 2 foi aceita, 0 caso contrário.
+- **AcceptedCmp3**: 1 se a oferta na campanha 3 foi aceita, 0 caso contrário.
+- **AcceptedCmp4**: 1 se a oferta na campanha 4 foi aceita, 0 caso contrário.
+- **AcceptedCmp5**: 1 se a oferta na campanha 5 foi aceita, 0 caso contrário.
+- **Complain**: 1 se o cliente fez uma reclamação nos últimos 2 anos, 0 caso contrário.
+- **Z_CostContact**: Custo de contato (valor fixo).
+- **Z_Revenue**: Receita (valor fixo).
+- **Response**: 1 se o cliente aceitou a última campanha, 0 caso contrário.
 
 ## Etapas da Análise
 
@@ -79,4 +115,4 @@ Se você quiser entrar em contato comigo ou acompanhar meu trabalho, aqui estão
 
 - **Email:** arthuraraujo07@hotmail.com
 - **GitHub:** [ragnarthur](https://github.com/ragnarthur)
-- **Instagram:** [@arthuraraujo07](https://instagram.com/arthuraraujo07
+- **Instagram:** [@arthuraraujo07](https://instagram.com/arthuraraujo07)
